@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey-light {
+  background: #f7f7f7;
+}
+.bg-grey-dark {
+  background: #f0f0f0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+span {
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  vertical-align: top;
+  padding: 10px;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  /* padding: 30px 50px; */
+}
+
+
+/* navbar start */
+#nav-bar {
+  text-align: center;
+}
+#nav-bar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-img {
+  position: absolute;
+  width: 10%;
+  border: #fff solid 5px;
+  border-radius: 50%;
+}
+#nav-bar .container a {
+  padding: 14px 16px;
+  line-height: 45px;
+  border-left: rgb(181, 166, 166) solid 1px;
+  /* height: 45px; */
+}
+#nav-bar .container div {
+  border-left: rgb(181, 166, 166) solid 1px;
+  height: 73px;
+  width: 300px;
+}
+.last {
+  border-right: rgb(181, 166, 166) solid 1px;
+}
+/* navbar start */
+
+/* banner start */
+#banner {
+  color: #fff;
+}
+#banner img {
+  width: 100%;
+  position: relative;
+  height: 450px;
+  opacity: 0.9;
+}
+
+#banner div {
+  position: absolute;
+  top: 25%;
+  left: 39%;
+}
+
+/* banner end */
+
+/* about start */
+.goal,
+.info {
+  line-height: 25px;
+  font-size: 20px;
+}
+#target {
+  padding-left: 100px;
+}
+#personal-info {
+  padding-left: 40px;
+}
+/* about end */
+
+/* job-info start */
+.item-header {
+  display: flex;
+  justify-content: space-between;
+}
+.item-content {
+  line-height: 25px;
+}
+.item-icon h1 {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  padding-left: 15px;
+  width: 80px;
+  height: 80px;
+  border: #047aed solid 1px;
+}
+.columns-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.column-item {
+  width: 30%;
+}
+/* Sắp xếp theo thứ tự hiển thị start */
+.experience {
+  order: 1;
+}
+.activity {
+  order: 3;
+}
+.skill  {
+  order: 6;
+}
+
+.education {
+  order: 2;
+}
+
+.language {
+  order: 5;
+}
+.hobby {
+  order: 4;
+}
+/* Sắp xếp theo thứ tự hiển thị end */
+.hobby-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.btn-view-more {
+  background-color: #ffd43b;
+  border-radius: 30px;
+  color: #000;
+}
+.level {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.non-level {
+  background: #dedede;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* job-info end */
+
+/* certificate start */
+.certificate-item {
+  display: flex;
+  gap: 20px;
+}
+.certificate-item-img {
+  padding-left: 40px;
+}
+
+.item-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.item-content ul li::marker {
+  color: #047aed;
+}
+/* Style Footer */
+#footer ul li {
+  display: inline-block;
+  width: 150px;
+  font-size: 20px;
+}
+
+.border-item-2 {
+  border-top: none;
+  border-left: 1px solid #e1931d;
+}
+.border-container {
+  border-bottom: 1px solid #e1931d;
+}
+
+.rounded-year {
+  border-radius: 30%;
+}
+.pro-icon {
+  display: flex;
+  align-items: start;
+}
+
+/* Ẩn phần tử html */
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* Tạo hiệu ứng nhấp nháy hover image */
+.flicker:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.bigger {
+  font-size: 30px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}

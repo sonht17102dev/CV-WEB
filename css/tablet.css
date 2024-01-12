@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  #target {
+    padding-left: 0;
+  }
+  
+  .avatar-img {
+    display: none;
+  }
+  .space {
+    max-width: 10%;
+  }
+  .columns-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .column-item {
+    width: 45%;
+  }
+ 
+  .user-lamp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

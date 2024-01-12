@@ -1,0 +1,26 @@
+h1 {
+  color: #0000ff;
+}
+
+.hidden {
+  display: none !important;
+}
+/* .heightRow2 {
+        height: 400px;
+    } */
+.borderContainer {
+  border: #0000ff solid 10px;
+}
+.border-top-box {
+  border-top: #0000ff solid 10px;
+}
+.border-bot-box {
+  border-bottom: #0000ff solid 20px;
+}
+.bg-number {
+  background-color: #9e88ff;
+  color: white;
+}
+.bg-number span {
+  font-size: 1rem;
+}

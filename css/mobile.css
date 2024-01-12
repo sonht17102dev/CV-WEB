@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px)   {
+    section .container {
+        width: 100%;
+    }
+
+    .space,
+    .avatar-img {
+        display: none;
+    }
+    #nav-bar {
+        text-align: left;
+    }
+    #nav-bar .container {
+        display: block;
+        width: 100%;
+        padding-left: 20px;
+    }
+    #nav-bar .container a {
+        display: block;
+        border: none;
+        width: 100%;
+        line-height: normal;
+        font-size: 20px;
+    }
+    #target {
+        padding-left: 40px;
+    }
+
+    #hobby .item-content {
+        flex-wrap: wrap;
+    }
+    .border-item-2 {
+        border-bottom: 1px solid #e1931d;
+        border-top: 1px solid #e1931d;
+        border-left: none;
+    }
+    .border-container {
+        border-bottom: none;
+    }
+    .columns-container,
+    .column-item {
+        display: block;
+        width: 100%;
+    }  
+
+    .pro-item {
+        margin: 1.5rem 0;
+    }
+
+    .pro-icon {
+        display: block;
+    }
+
+    .user-lamp {
+        display: block;
+    }
+    .user-lamp span{
+        display: block;
+    }
+
+    .certificate-item {
+        display: block;
+    }
+}
